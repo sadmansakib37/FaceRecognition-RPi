@@ -36,15 +36,15 @@ pip install -r requirements.txt
 
 **Capture facial images for training**
 
-python src/dataset_creation.py
+_python src/dataset_creation.py_
 
 **Train the PCA + SVM model**
 
-python src/train_svm.py
+_python src/train_svm.py_
 
 **Start real-time face recognition**
 
-python src/recognize_face.py
+_python src/recognize_face.py_
 
 ## 📊 Technologies Used
 
