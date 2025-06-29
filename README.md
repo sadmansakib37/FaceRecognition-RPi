@@ -20,7 +20,6 @@ This project demonstrates how face recognition can be implemented on a lightweig
 
 - `src/`: All scripts including dataset creation, training, and recognition.
 - `report/`: Course project report PDF.
-- `models/`: Saved SVM and PCA models.
 - `dataset/`: Sample training images.
 
 
