@@ -23,58 +23,54 @@ This project demonstrates how face recognition can be implemented on a lightweig
 - `models/`: Saved SVM and PCA models.
 - `dataset/`: Sample training images.
 
+
 ## ⚙️ Setup Instructions
 
 ### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+```
 
+## 2. Run Scripts
 
-### 2. Run Scripts
-
-# Step 1: Capture dataset
+# Capture facial images for training
 python src/dataset_creation.py
 
-# Step 2: Train PCA + SVM model
+# Train the PCA + SVM model
 python src/train_svm.py
 
-# Step 3: Start real-time face recognition
+# Start real-time face recognition
 python src/recognize_face.py
 
+## 📊 Technologies Used
 
-📊 Technologies Used
+- Python
+- OpenCV
+- Raspberry Pi + PiCamera
+- PCA (Principal Component Analysis)
+- SVM (Support Vector Machine)
+- scikit-learn, NumPy, Pillow
 
-	- Python
+## 📜 Report
 
-	- OpenCV
+Read the full documentation here: 📄 report/face-recognition.pdf
 
-	- Raspberry Pi + PiCamera
+## 👥 Authors
 
-	- PCA (Principal Component Analysis)
+- **Md. Sadman Sakib** (1509050)  
+- **Md. Imran Hasan** (1509049)  
+  *Department of ECE, KUET*
 
-	- SVM (Support Vector Machine)
+**Supervisor:**  
+- Mr. Tasnim Azad Abir, Assistant Professor
 
-	- scikit-learn, NumPy, PIL
+## 🚀 Future Scope
 
-📜 Report
+- 🔬 IR camera for nighttime recognition
+- 🌐 GSM/IoT integration for remote alerts
+- 🏫 Smart surveillance, attendance systems, and beyond.
 
-You can read the full project documentation in report/face-recognition.pdf.
+##🌟 License
 
-👥 Authors
-
-	- Md. Sadman Sakib (1509050)
-
-	- Md. Imran Hasan (1509049)
-
-ECE Department, KUET
-
-Supervisor: Mr. Tasnim Azad Abir, Assistant Professor
-
-📌 Future Scope
-
-	- IR camera for nighttime face recognition.
-
-	- Integrate GSM/IoT for remote access notifications.
-
-	- Smart surveillance, classroom attendance, and more.
+This project is for academic and learning purposes. Contact authors for inquiries.
