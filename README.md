@@ -34,13 +34,13 @@ pip install -r requirements.txt
 
 ## 2. Run Scripts
 
-# Capture facial images for training
+**Capture facial images for training**
 python src/dataset_creation.py
 
-# Train the PCA + SVM model
+**Train the PCA + SVM model**
 python src/train_svm.py
 
-# Start real-time face recognition
+**Start real-time face recognition**
 python src/recognize_face.py
 
 ## 📊 Technologies Used
@@ -71,6 +71,6 @@ Read the full documentation here: 📄 report/face-recognition.pdf
 - 🌐 GSM/IoT integration for remote alerts
 - 🏫 Smart surveillance, attendance systems, and beyond.
 
-##🌟 License
+## 🌟 License
 
 This project is for academic and learning purposes. Contact authors for inquiries.
